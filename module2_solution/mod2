@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgoldenrodyellow ;
+
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+    color:black;
+    font-family:sans-serif;
+    background-color:lavender;
+    width: 200px;
+    padding: 5px;
+    border: 3px solid black;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+div {
+    position: relative;
+    background-color: lightgreen;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+    
+
+.s1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color:palevioletred;
+    
+}
+.s2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+    
+}
+.s3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color:lightcoral;
+    
+}
+.content {
+    padding: 5px;
+    border: none;
+    background-color: lightgreen;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+    clear: right;
+}
+
+.row {
+    width: 90%;
+}
+
+
+@media (min-width: 992px){
+    .col4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col8 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .colm12 {
+        float: left;
+        width: 100%;
+    }
+}
+.border{
+    border: 3px solid black;
+}
